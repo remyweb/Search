@@ -2,7 +2,7 @@
   "name": "norch",
   "version": "0.8.13",
   "description": "A search engine based on Node.js and LevelDB",
-  "main": "./lib/norch",
+  "main": "./lib/norch.js",
   "dependencies": {
     "JSONStream": "^1.2.1",
     "bunyan": "^1.8.4",
@@ -41,9 +41,7 @@
   "bin": {
     "norch": "./bin/norch"
   },
-  "maintainers": [
-    "fergiemcdowall <fergusmcdowall@gmail.com>"
-  ],
+  "maintainers": ["fergiemcdowall <fergusmcdowall@gmail.com>"],
   "engines": {
     "node": ">3"
   },
